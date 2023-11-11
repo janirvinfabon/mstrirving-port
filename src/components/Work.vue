@@ -27,7 +27,7 @@
         <h2 class="text-sm dark:text-white">
           Asst. Software Developer Manager at SMIC Digital Advantage Corp.
         </h2>
-        <span class="text-xs f-gray"> 06/2019 – 01/2022</span>
+        <span class="text-xs f-gray"> 06/2018 – Present</span>
       </li>
       <li></li>
       <li class="pl-10" data-aos="fade-left" data-aos-duration="500">

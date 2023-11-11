@@ -25,7 +25,7 @@
         data-aos-delay="800"
         data-aos-duration="500"
       >
-        I'm Experienced Backend-end Developer with a demonstrated history of
+        I'm Experienced Backend Developer with a demonstrated history of
         working in the information technology and services industry. Highly
         skilled in Python, PHP, C# and AWS Services.
       </h5>
@@ -37,7 +37,7 @@
         >
           <span> Visit Github&nbsp;</span>
           <span
-            ><font-awesome-icon class="w-4" :icon="['fas', 'fa-github']"
+            ><font-awesome-icon class="w-4" :icon="['fas', 'arrow-up-right-from-square']"
           /></span>
         </a>
       </div>

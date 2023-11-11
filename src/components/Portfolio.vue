@@ -109,6 +109,10 @@ import "swiper/css/pagination";
 // import required modules
 import { Pagination } from "swiper";
 
+import datastream from "../assets/img/projects/datastream.png"
+import apigateway from "../assets/img/projects/apigateway.png"
+import apod from "../assets/img/projects/apod.png"
+
 export default {
   components: {
     Swiper,
@@ -127,23 +131,23 @@ export default {
         {
           name: "SMAC API",
           project_link: "#portfolio",
-          project_logo: "../assets/img/projects/apigateway.png",
+          project_logo: apigateway,
           description: "API | A microservice that allows the clients to connect to internal system's core application.",
           class: "apigw-service",
         },
         {
           name: "Data Streaming",
           project_link: "#portfolio",
-          project_logo: "../assets/img/projects/datastreaming.png",
+          project_logo: datastream,
           description: "Backend | DynamoDB streaming service to an S3 bucket folder",
-          class: "data-streaming",
+          class: "data-stream",
         },
         {
-          name: "SMAC APoD Application",
+          name: "APoD Application",
           project_link: "#portfolio",
-          project_logo: "../assets/img/projects/apigateway.png",
+          project_logo: apod,
           description: "A SMAC customer service application that allows the members to claim their loyalty card.",
-          class: "apigw-service",
+          class: "apod",
         }
       ],
     };
@@ -220,10 +224,6 @@ export default {
   object-fit: cover;
 }
 
-.capitan,
-.vwala {
-  clip-path: circle(30% at 50% 50%);
-}
 
 .cssbuttons-io-button {
   color: white;
@@ -261,25 +261,16 @@ export default {
   width: calc(100% - 0.6em);
 }
 
-.dsg,
-.fundspace {
-  width: 90% !important;
+.apigw-service {
+  max-width: 150px !important;
 }
 
-.fundspace {
-  padding-top: 3rem;
+.data-stream {
+  max-width: 180px !important;
 }
 
-.richardson {
-  padding-top: 2rem;
-}
-
-.bms {
-  padding-top: 1rem;
-}
-
-.cmdi {
-  width: 40% !important;
+.apod {
+  max-width: 200px !important;
 }
 
 .cssbuttons-io-button .icon svg {
