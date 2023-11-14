@@ -32,7 +32,7 @@
       <li></li>
       <li class="pl-10" data-aos="fade-left" data-aos-duration="500">
         <h2 class="text-sm dark:text-white">
-          Web Developer at Internal Payments Processing Inc.
+          Web Developer at International Payments Processing Inc.
         </h2>
         <span class="text-xs f-gray"> 05/2017 – 03/2018</span>
       </li>
