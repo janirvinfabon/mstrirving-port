@@ -13,7 +13,7 @@ Contact Information: Ways to get in touch with me for collaboration, job opportu
 
 ## Getting Started
 
-To explore the portfolio, simply visit [porfolio.mstrirving.com](https://porfolio.mstrirving.com). Alternatively, you can clone this repository to your local machine and open the index.html file in your preferred web browser.
+To explore the portfolio, simply visit <a href="https://portfolio.mstrirving.com" target="_blank">portfolio.mstrirving.com</a>. Alternatively, you can clone this repository to your local machine and open the index.html file in your preferred web browser.
 
 ```bash
 git clone https://github.com/janirvinfabon/mstrirving-port.git
