@@ -70,8 +70,9 @@
               </div>
               <div class="visit-link flex justify-center">
                 <a
-                  class="cssbuttons-io-button bg-cyan-500 w-44 cursor-pointer"
+                  class="cssbuttons-io-button bg-cyan-500 w-44 cursor-pointer btn-project-link"
                   :href="project.project_link"
+                  :target="project.target"
                 >
                   Visit Site
                   <div class="icon">
@@ -112,6 +113,7 @@ import { Pagination } from "swiper";
 import datastream from "../assets/img/projects/datastream.png"
 import apigateway from "../assets/img/projects/apigateway.png"
 import apod from "../assets/img/projects/apod.png"
+import livegood from "../assets/img/projects/livegood-membership.png"
 
 export default {
   components: {
@@ -134,6 +136,7 @@ export default {
           project_logo: apigateway,
           description: "API | A microservice that allows the clients to connect to internal system's core application.",
           class: "apigw-service",
+          target: "_self"
         },
         {
           name: "Data Streaming",
@@ -141,6 +144,7 @@ export default {
           project_logo: datastream,
           description: "Backend | DynamoDB streaming service to an S3 bucket folder",
           class: "data-stream",
+          target: "_self"
         },
         {
           name: "APoD Application",
@@ -148,6 +152,15 @@ export default {
           project_logo: apod,
           description: "A SMAC customer service application that allows the members to claim their loyalty card.",
           class: "apod",
+          target: "_self"
+        },
+        {
+          name: "LiveGoodPhils App",
+          project_link: "https://www.livegoodphils.com/?u=trulyrichph",
+          project_logo: livegood,
+          description: "An affiliate marketing company that specializes in helping businesses promote their products or services through affiliate marketing programs.",
+          class: "livegood",
+          target: "_blank"
         }
       ],
     };
@@ -261,12 +274,8 @@ export default {
   width: calc(100% - 0.6em);
 }
 
-.apigw-service {
-  max-width: 150px !important;
-}
-
-.data-stream {
-  max-width: 180px !important;
+.apigw-service, .data-stream, .livegood {
+  max-width: 120px !important;
 }
 
 .apod {
